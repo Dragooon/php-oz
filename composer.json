@@ -1,0 +1,46 @@
+{
+  "name": "Dragooon/oz",
+  "description": "Oz",
+  "keywords": [
+    "oz",
+    "authentication",
+    "authorization",
+    "bewit",
+    "protocol"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Shitiz Garg",
+      "email": "mail@dragooon.net",
+      "homepage": "http://dragooon.net"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Dragooon\\Oz\\": "src"
+    }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/Dragooon/php-hawk"
+    }
+  ],
+  "require": {
+    "ircmaxell/random-lib": "^1.0@dev",
+    "Dragooon/hawk": "dev-master",
+    "php": ">=5.4.0"
+  },
+  "require-dev": {
+    "codeclimate/php-test-reporter": "~0.1@dev",
+    "phpunit/phpunit": "~4.5",
+    "squizlabs/php_codesniffer": "~2.3"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  }
+}
+
